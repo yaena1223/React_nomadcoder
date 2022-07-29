@@ -19,7 +19,7 @@
     const Container = () => {
         let [counter,setCounter] = React.useState(0);
         const onClick = () => {
-            setCounter((current)=> current+1); <!-- 현재 state를 바탕으로 다음 state를 계산해내고 싶다면, 함수를 이용해야함  -->
+            setCounter((current)=> current+1); //<!-- 현재 state를 바탕으로 다음 state를 계산해내고 싶다면, 함수를 이용해야함  -->
         };
         return (<div>
             <h3>Total clicks : {counter}</h3>  
